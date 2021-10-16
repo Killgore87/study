@@ -1,5 +1,7 @@
-code = int(input('ASCII code>>'))
-if ord('a') <= code <= ord('z') or ord('A') <= code <= ord('Z'):
-    print(code, ' is a letter ', chr(code))
-else:
-    print(code, ' is a  ', chr(code))
+list = []
+for _ in range(0, 100):
+    if _ == 0 or _ == 99:
+        list.append(1)
+    else:
+        list.append(0)
+print(list)

@@ -1,4 +1,3 @@
-number = input('please input numbers with delimeter space" " number>>').split()
-for i in range(len(number)):
-    if (float(number[i]) % 2) != 0:
-        print(number[i])
+list = [1, 20, 3, 4, 5, 6, 7, 20, 555, 5, 20]
+list.reverse()
+print(list)

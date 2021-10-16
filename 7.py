@@ -1,5 +1,7 @@
-number = input('please input numbers with delimeter space" " number>>').split()
-result = 0
-for i in range(len(number)):
-    result += float(number[i])
-print('result ', result)
+list = [1, 2, 3, 4, 5, 6, 7]
+summ = 0
+product = 1
+for i in range(len(list)):
+    summ += list[i]
+    product *= list[i]
+print(summ, product)

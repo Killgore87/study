@@ -1,8 +1,3 @@
-number = float(input('number>>'))
-measure = input('input farinhate or celsius measure, format = C or F >>')
-if measure == 'C' or measure == 'c':
-    result = (number * 1.8) + 32
-    print('result in F', result)
-else:
-    result = (number - 32) / 1.8
-    print('result in C', result)
+list = [1, 20, 3, 4, 5, 6, 7, 20, 555, 5, 20]
+list = [_ for _ in list if _ != 20]
+print(list)
