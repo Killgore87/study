@@ -1,4 +1,4 @@
 numbers = ['first', 'second', '', 'abra', '', 'cadabra']
-list = [_ for _ in numbers if _ != '']
+numbers = [_ for _ in numbers if _ != '']
 print(numbers)
 
