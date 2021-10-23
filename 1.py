@@ -1,4 +1,3 @@
-numbers = input('please input numbers with delimeter space" " number>>').split()
 def list_calc(number, size):
     result_list = []
     result_number = 0
@@ -10,6 +9,9 @@ def list_calc(number, size):
         return result_number
     else:
         return number
+
+
+numbers = input('please input numbers with delimeter space" " number>>').split()
 print(list_calc(number=numbers[0], size=numbers[1]))
 
 
