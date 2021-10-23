@@ -1,3 +1,2 @@
-list = [1, 20, 3, 4, 5, 6, 7, 20, 555, 5, 20]
-list = [_ for _ in list if _ != 20]
-print(list)
+user_input = input('please input text with delimeter ", " number>>').split(',')
+print(user_input, tuple(user_input))
