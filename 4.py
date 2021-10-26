@@ -14,6 +14,8 @@ def list_concater(first_text, second_text):
         except:
             pass
     return result
+
+
 first_input = input('please input first text with delimeter space" " number>>').split()
 second_input = input('please input first text with delimeter space" " number>>').split()
 print(list_concater(first_input,second_input))
