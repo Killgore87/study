@@ -1,9 +1,6 @@
 def list_concater(first_text, second_text):
     result = []
-    if len(first_text) >= len(second_text):
-        size = len(first_text)
-    else:
-        size = len(second_text)
+    size = max([len(first_text), len(second_text)])
     for i in range(0, size):
         try:
             result.append(first_text[i])
