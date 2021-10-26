@@ -1,13 +1,20 @@
 def list_concater(first_text, second_text):
     result = []
-    for i in range(len(first_text)):
-        result.append(first_text[i])
-        if i < len(second_text):
-            result.append(second_text[i])
-            if i == (len(first_text) - 1) and i != (len(second_text) - 1):
-                for a in range(i, len(second_text)):
-                    result.append(second_text[a])
+    if len(first_text) >= len(second_text):
+        size = len(first_text)
+    else:
+        size = len(second_text)
+    for i in range(0, size):
+        try:
+            result.append(first_text[i])
+        except:
+            pass
+        try:
+            result.append(second_input[i])
+        except:
+            pass
     return result
+
 
 first_input = input('please input first text with delimeter space" " number>>').split()
 second_input = input('please input first text with delimeter space" " number>>').split()
